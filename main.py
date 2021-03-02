@@ -32,7 +32,7 @@ def run(argv=None, save_main_session=True):
   parser.add_argument(
       '--input',
       dest='input',
-      default='gs://arcane-glow-305709/data.txt',
+      default='data.txt',
       help='Input file to process.')
   parser.add_argument(
       '--output',
